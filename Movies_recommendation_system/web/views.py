@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 
-# for recommendation
+#This is for recommendation
 def recommend(request):
 	if not request.user.is_authenticated:
 		return redirect("login")
